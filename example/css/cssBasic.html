@@ -7,8 +7,8 @@
   <title>Document</title>
 </head>
 <body>
-  <a href="index.html">목록으로 돌아가기</a>
 
+  <a href="../../index.html">목록으로 돌아가기</a>
   <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">
  1
  2
@@ -48,29 +48,49 @@
 36
 37
 38
-39</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #cc0000; font-weight: bold">&lt;!DOCTYPE html&gt;</span>
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #cc0000; font-weight: bold">&lt;!DOCTYPE html&gt;</span>
 
 <span style="color: #bb0066; font-weight: bold">&lt;html</span> <span style="color: #336699">lang=</span><span style="color: #dd2200; background-color: #fff0f0">&quot;ko&quot;</span><span style="color: #bb0066; font-weight: bold">&gt;</span>
 
   <span style="color: #bb0066; font-weight: bold">&lt;head&gt;</span>
     <span style="color: #bb0066; font-weight: bold">&lt;meta</span> <span style="color: #336699">charset=</span><span style="color: #dd2200; background-color: #fff0f0">&quot;UTF-8&quot;</span><span style="color: #bb0066; font-weight: bold">&gt;</span>
     <span style="color: #bb0066; font-weight: bold">&lt;title&gt;</span>Document<span style="color: #bb0066; font-weight: bold">&lt;/title&gt;</span>
+    <span style="color: #888888">&lt;!-- 링크로 css 파일을 관리하는 방법 --&gt;</span>
+    <span style="color: #bb0066; font-weight: bold">&lt;link</span> <span style="color: #336699">rel=</span><span style="color: #dd2200; background-color: #fff0f0">&quot;stylesheet&quot;</span> <span style="color: #336699">href=</span><span style="color: #dd2200; background-color: #fff0f0">&quot;main.css&quot;</span><span style="color: #bb0066; font-weight: bold">&gt;</span>
 
+    <span style="color: #888888">&lt;!-- 헤드 속성안에 스타일태그로 css를 주는 방법  --&gt;</span>
     <span style="color: #bb0066; font-weight: bold">&lt;style&gt;</span>
-      <span style="color: #bb0066; font-weight: bold">.list</span>{
-        <span style="color: #008800; font-weight: bold">background-color</span>: <span style="color: #003388">yellow</span>;
+     <span style="color: #bb0066; font-weight: bold">img</span>{
+        <span style="color: #008800; font-weight: bold">width</span>: <span style="color: #0000DD; font-weight: bold">700px</span>;
+        <span style="color: #008800; font-weight: bold">height</span>: <span style="color: #0000DD; font-weight: bold">500px</span>
       }
+      <span style="color: #888888">/*.list{</span>
+<span style="color: #888888">        background-color: yellow;</span>
+<span style="color: #888888">      }*/</span>
 
-      <span style="color: #bb0066; font-weight: bold">.content</span>{
-        <span style="color: #008800; font-weight: bold">background-color</span>: <span style="color: #003388">gray</span>;
-      }
+      <span style="color: #888888">/*.content{</span>
+<span style="color: #888888">        background-color: gray;</span>
+<span style="color: #888888">      }*/</span>
+      <span style="color: #888888">/*#title{</span>
+<span style="color: #888888">        color: red;</span>
+<span style="color: #888888">      }*/</span>
     <span style="color: #bb0066; font-weight: bold">&lt;/style&gt;</span>
 
   <span style="color: #bb0066; font-weight: bold">&lt;/head&gt;</span>
 
   <span style="color: #bb0066; font-weight: bold">&lt;body&gt;</span>
-    <span style="color: #888888">&lt;!-- div태그로 묶어서 관리하기 --&gt;</span>
-    <span style="color: #bb0066; font-weight: bold">&lt;div</span> <span style="color: #336699">class=</span><span style="color: #dd2200; background-color: #fff0f0">&quot;list&quot;</span><span style="color: #bb0066; font-weight: bold">&gt;</span>
+    <span style="color: #888888">&lt;!-- div태그 안에 인라인 방법으로 css를 주는 방법 --&gt;</span>
+    <span style="color: #bb0066; font-weight: bold">&lt;div</span> <span style="color: #336699">style=</span><span style="color: #dd2200; background-color: #fff0f0">&quot;background-color:gray; width:500px;&quot;</span> <span style="color: #336699">class=</span><span style="color: #dd2200; background-color: #fff0f0">&quot;list&quot;</span><span style="color: #bb0066; font-weight: bold">&gt;</span>
       <span style="color: #bb0066; font-weight: bold">&lt;ul&gt;</span>
         <span style="color: #bb0066; font-weight: bold">&lt;li&gt;</span>1번글<span style="color: #bb0066; font-weight: bold">&lt;/li&gt;</span>
         <span style="color: #bb0066; font-weight: bold">&lt;li&gt;</span>2번글<span style="color: #bb0066; font-weight: bold">&lt;/li&gt;</span>
@@ -79,7 +99,7 @@
     <span style="color: #bb0066; font-weight: bold">&lt;/div&gt;</span>
 
     <span style="color: #bb0066; font-weight: bold">&lt;div</span> <span style="color: #336699">class=</span><span style="color: #dd2200; background-color: #fff0f0">&quot;content&quot;</span><span style="color: #bb0066; font-weight: bold">&gt;</span>
-      <span style="color: #bb0066; font-weight: bold">&lt;h1&gt;</span>1번 글 제목<span style="color: #bb0066; font-weight: bold">&lt;/h1&gt;</span>
+      <span style="color: #bb0066; font-weight: bold">&lt;h1</span> <span style="color: #336699">id=</span><span style="color: #dd2200; background-color: #fff0f0">&quot;title&quot;</span> <span style="color: #bb0066; font-weight: bold">&gt;</span>1번 글 제목<span style="color: #bb0066; font-weight: bold">&lt;/h1&gt;</span>
       <span style="color: #bb0066; font-weight: bold">&lt;img</span> <span style="color: #336699">src=</span><span style="color: #dd2200; background-color: #fff0f0">&quot;img/sea.jpg&quot;</span> <span style="color: #336699">alt=</span><span style="color: #dd2200; background-color: #fff0f0">&quot;바다사진&quot;</span><span style="color: #bb0066; font-weight: bold">&gt;</span>
       <span style="color: #bb0066; font-weight: bold">&lt;p&gt;</span> 바다 사진 입니다 <span style="color: #bb0066; font-weight: bold">&lt;/p&gt;</span>
     <span style="color: #bb0066; font-weight: bold">&lt;/div&gt;</span>

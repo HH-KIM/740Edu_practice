@@ -40,8 +40,8 @@ textarea{
 }
 
 img{
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
 }
 header{
   background-color: #fff;;
@@ -103,6 +103,7 @@ article{
   justify-content: row;
   align-items: center;
   padding-left: 15px;
+  border-bottom:1px solid #efefef;
 }
 
 .infoNick{
