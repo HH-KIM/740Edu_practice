@@ -11,8 +11,6 @@ span{
 a{
   text-decoration: none;
   color:black;
-  padding: 10px;
-
 }
 a:visited{
   color:black ;
@@ -21,13 +19,21 @@ a:hover{
   text-decoration: none;
   color:black;
 }
+a:focus{
+  text-decoration: none;
+  color:black;
+}
 
 ul{
   list-style: none;
 }
+#main{
+  height: 100vh;
 
-li{
-  padding: 10px;
+}
+
+.list-btn{
+  border-bottom:  1px solid black;
 }
 
 navbar-brand-customize{
